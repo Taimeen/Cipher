@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header Text -->
+    <TextView
+        android:id="@+id/headerTextBlocked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blocked Numbers"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@android:color/black" />
+
+    <!-- ListView for Blocked Numbers -->
+    <ListView
+        android:id="@+id/blocklistView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+</LinearLayout>

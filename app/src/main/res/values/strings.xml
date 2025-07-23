@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Cipher</string>
+    <string name="no_sms_messages_found">No SMS messages found.</string>
+    </resources>

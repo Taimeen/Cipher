@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- App Description -->
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to SMS Reader!"
+            android:textColor="#333333"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/appDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Powered by AI and Machine Learning"
+            android:textColor="#4CAF50"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/appDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app is developed using advanced Artificial Intelligence (AI) and Machine Learning (ML) models to help detect and filter spam messages. Stay cybersafe by identifying suspicious messages before they become a threat.\n\nWith SMS Reader, you can:"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/appFeatures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✔ Detect spam messages using AI-powered algorithms.\n✔ View and manage your inbox efficiently.\n✔ Manually check messages for spam.\n✔ Explore our development team and the app's journey.\n✔ Enhance your digital safety with ease."
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Navigation Buttons -->
+        <Button
+            android:id="@+id/openCheckMessageActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Messages Manually"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginHorizontal="4dp" />
+
+        <Button
+            android:id="@+id/inboxMessages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Inbox Messages"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginHorizontal="4dp" />
+
+        <Button
+            android:id="@+id/openTeamPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meet the Team"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginHorizontal="4dp" />
+
+    </LinearLayout>
+</ScrollView>
